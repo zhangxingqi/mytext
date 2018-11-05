@@ -10,7 +10,7 @@ from mytext.items import MytextItem
 
 
 class MyspiderSpider(scrapy.Spider):
-    name = 'myspidermysql'
+    name = 'myspider'
 
 
 

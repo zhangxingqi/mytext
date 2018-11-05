@@ -19,6 +19,8 @@ BOT_NAME = 'mytext'
 
 SPIDER_MODULES = ['mytext.spiders']
 NEWSPIDER_MODULE = 'mytext.spiders'
+
+BACKEND = 'frontera.contrib.backends.memory.BFS'
 #
 # DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 #
@@ -36,7 +38,7 @@ NEWSPIDER_MODULE = 'mytext.spiders'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-
+BACKEND = 'frontera.contrib.backends.memory.BFS'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
